@@ -6,6 +6,6 @@ const reverseString = function(string) {
     return result;
 };
 
-console.log(reverseString("hello there"))
+console.log(reverseString("hello there"));
 // Do not edit below this line
 module.exports = reverseString;
