@@ -1,10 +1,11 @@
 const repeatString = function (string, num) {
-    for (num = 0; num < 3; num++) {
-        return string.splice(2, 0, "hey")
+    let result = " ";
+    for (i = 0; i < num; i++) {
+        result += string;
     }
+    return(result);
 };
 
-let string = "hey"
-console.log(repeatString);
+console.log(repeatString("hey", 3));
 // Do not edit below this line
 module.exports = repeatString;
